@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>CryptoArt</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230920014839">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+				<div class="header__content">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">About</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Collection</a></li>
+								<li class="menu__item"><a href="" class="menu__link">FAQs</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions action-header">
+						<button class="action-header__btn btn" data-da=".menu__body,767.98">
+							<span class="btn__text">Connect wallet</span>
+							<div class="btn__box">
+								<svg height="50" width="50" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+									<g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+										<path d="m23.971 35.016h2.262l.726 3.415h-3.335" />
+										<path d="m42.158 31.771-11.57.213-4.355 3.032.384-18.232 2.391-5.934 11.613-4.611 1.879 5.721-1.708 6.746.171 3.415-1.11 1.638 2.305 8.012-2.092 8.496-8.539-2.647-4.568 4.141h-2.988" />
+										<path d="m39.8529 23.7591-8.1549-2.4062" />
+										<path d="m40.7922 18.7057 1.4943-.2561" />
+										<path d="m42.2865 20.3282-1.4047.1705" />
+										<path d="m26.4389 25.2438 7.9489-.1764" />
+										<path d="m35.647 31.891-4.12 5.729-.939-5.636 3.8-6.917-2.69-3.714-5.081-4.569 14.004-10.545" />
+										<path d="m26.2329 35.0155 5.2943 2.6044" />
+										<path d="m27.45 29.663 3.186-1.185-2.274-1.185z" />
+										<path d="m29.0081 10.8497h-5.0373" />
+										<path d="m24.029 35.016h-2.262l-.726 3.415h2.583" />
+										<path d="m5.842 31.771 11.57.213 4.355 3.032-.384-18.232-2.391-5.934-11.613-4.611-1.879 5.721 1.708 6.746-.171 3.415 1.11 1.638-2.305 8.012 2.092 8.496 8.539-2.647 4.568 4.141h2.988" />
+										<path d="m8.1471 23.7591 8.1549-2.4062" />
+										<path d="m7.2078 18.7057-1.4943-.2561" />
+										<path d="m5.7135 20.3282 1.4047.1705" />
+										<path d="m21.5611 25.2438-7.9489-.1764" />
+										<path d="m12.353 31.891 4.12 5.729.939-5.636-3.8-6.917 2.69-3.714 5.081-4.569-14.004-10.545" />
+										<path d="m21.7671 35.0155-5.2943 2.6044" />
+										<path d="m20.55 29.663-3.186-1.185 2.274-1.185z" />
+										<path d="m18.9919 10.8497h5.0373" />
+									</g>
+								</svg>
+								<svg height="48" width="48" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 128 128" id="trust-wallet-token">
+									<path d="M64 117.18a4.83 4.83 0 0 1-2.94-1s-3.69-2.78-13.89-8.37C31.56 99.26 24.38 89 22.39 72.4c-1.54-12.85-2.54-39.69-2.58-40.83a4.82 4.82 0 0 1 5.25-5c.1 0 10.54.88 19.52-1.64a48.46 48.46 0 0 0 16.31-8.3 4.84 4.84 0 0 1 6.22 0A48.51 48.51 0 0 0 83.42 25c9 2.52 19.42 1.64 19.53 1.64a4.81 4.81 0 0 1 5.24 5c0 1.14-1 28-2.58 40.83-2 16.6-9.17 26.86-24.77 35.4-10.2 5.59-13.87 8.36-13.91 8.39a4.82 4.82 0 0 1-2.93.92ZM29.65 36.39C30 45 30.87 62.12 32 71.26c1.4 11.68 5.09 20 19.83 28.09 6 3.27 9.86 5.65 12.21 7.18 2.35-1.53 6.24-3.91 12.21-7.18C91 91.28 94.64 82.94 96 71.26c1.13-9.14 2-26.26 2.35-34.87a67.44 67.44 0 0 1-17.54-2.15A58.54 58.54 0 0 1 64 26.33a58.54 58.54 0 0 1-16.81 7.91 67.44 67.44 0 0 1-17.54 2.15ZM64 20.34Z"></path>
+								</svg>
+								<svg height="48" width="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710.5 687.9" width="2500" height="2420">
+									<path d="M516.723 79.8c21.7 0 39.3-17.9 39.3-39.9S538.423 0 516.723 0c-21.7.1-39.3 18-39.3 40s17.6 39.8 39.3 39.8zM528.312 183.501c18.4 0 33.3-15.1 33.3-33.8 0-18.6-14.9-33.8-33.3-33.8s-33.3 15.1-33.3 33.8c0 18.7 14.9 33.8 33.3 33.8zM619.717 196.699c18.3 0 33.2-15.1 33.2-33.7s-14.9-33.7-33.2-33.7-33.2 15.1-33.2 33.7 14.9 33.7 33.2 33.7zM608.74 285.419c15.7 0 28.4-12.9 28.4-28.8s-12.7-28.8-28.4-28.8-28.4 12.9-28.4 28.8 12.7 28.8 28.4 28.8zM681.913 314.191c15.8 0 28.6-13 28.6-29s-12.8-29-28.6-29-28.6 13-28.6 29 12.8 29 28.6 29zM516.78 273.414c16.1 0 29.1-13.2 29.1-29.5s-13-29.5-29.1-29.5-29.1 13.2-29.1 29.5c0 16.2 13 29.5 29.1 29.5zM490.409 344.011c13.5 0 24.4-11.1 24.4-24.7 0-13.7-10.9-24.7-24.4-24.7s-24.4 11.1-24.4 24.7 10.9 24.7 24.4 24.7zM581.923 356.489c13.4 0 24.2-11 24.2-24.6 0-13.6-10.8-24.6-24.2-24.6s-24.2 11-24.2 24.6c-.1 13.6 10.8 24.6 24.2 24.6zM654.89 385.152c13.5 0 24.4-11.1 24.4-24.8s-10.9-24.8-24.4-24.8-24.4 11.1-24.4 24.8c0 13.7 10.9 24.8 24.4 24.8zM618.844 438.703c11.4 0 20.6-9.4 20.6-20.9s-9.2-20.9-20.6-20.9c-11.4 0-20.6 9.4-20.6 20.9s9.2 20.9 20.6 20.9zM545.533 410.497c11.6 0 21.1-9.6 21.1-21.4s-9.4-21.4-21.1-21.4-21.1 9.6-21.1 21.4 9.5 21.4 21.1 21.4zM454.14 397.429c11.5 0 20.9-9.5 20.9-21.2s-9.3-21.2-20.9-21.2c-11.5 0-20.9 9.5-20.9 21.2s9.3 21.2 20.9 21.2zM504.94 447.731c10.1 0 18.2-8.3 18.2-18.4 0-10.2-8.1-18.4-18.2-18.4s-18.2 8.3-18.2 18.4c0 10.2 8.1 18.4 18.2 18.4zM578.223 476.404c10.1 0 18.4-8.3 18.4-18.6s-8.2-18.6-18.4-18.6c-10.1 0-18.4 8.3-18.4 18.6.1 10.3 8.3 18.6 18.4 18.6zM536.946 497.921c8 0 14.5-6.6 14.5-14.7s-6.5-14.7-14.5-14.7-14.5 6.6-14.5 14.7c.1 8.1 6.5 14.7 14.5 14.7zM497.848 509.461c7.3 0 13.1-6 13.1-13.3 0-7.4-5.9-13.3-13.1-13.3-7.3 0-13.1 6-13.1 13.3-.1 7.4 5.8 13.3 13.1 13.3zM463.602 471.219c8.6 0 15.6-7.1 15.6-15.8s-7-15.8-15.6-15.8-15.6 7.1-15.6 15.8c0 8.7 7 15.8 15.6 15.8zM413.333 434.963c10 0 18.2-8.2 18.2-18.4s-8.1-18.4-18.2-18.4c-10 0-18.2 8.2-18.2 18.4.1 10.2 8.2 18.4 18.2 18.4zM562.38 665.393c21.6 0 39.1-17.8 39.1-39.7s-17.5-39.7-39.1-39.7-39.1 17.8-39.1 39.7c0 21.9 17.5 39.7 39.1 39.7zM463.012 615.128c18 0 32.6-14.8 32.6-33.1s-14.6-33.1-32.6-33.1-32.6 14.8-32.6 33.1 14.6 33.1 32.6 33.1zM406.253 687.864c18.2 0 32.9-14.9 32.9-33.4 0-18.4-14.7-33.4-32.9-33.4s-32.9 14.9-32.9 33.4c0 18.4 14.7 33.4 32.9 33.4zM389.186 553.853c15.7 0 28.5-12.9 28.5-28.9 0-16-12.8-28.9-28.5-28.9s-28.5 12.9-28.5 28.9c0 15.9 12.8 28.9 28.5 28.9zM332.544 627.567c15.7 0 28.4-12.9 28.4-28.8s-12.7-28.8-28.4-28.8-28.4 12.9-28.4 28.8c-.1 15.9 12.7 28.8 28.4 28.8zM271.514 677.623c15.7 0 28.3-12.9 28.3-28.7 0-15.9-12.7-28.7-28.3-28.7-15.7 0-28.3 12.9-28.3 28.7 0 15.8 12.7 28.7 28.3 28.7zM220.72 612.479c13.3 0 24.2-11 24.2-24.5s-10.8-24.5-24.2-24.5c-13.3 0-24.2 11-24.2 24.5.1 13.5 10.9 24.5 24.2 24.5zM281.862 562.221c13.4 0 24.2-11 24.2-24.5 0-13.6-10.8-24.5-24.2-24.5-13.4 0-24.2 11-24.2 24.5s10.8 24.5 24.2 24.5zM338.92 488.511c13.4 0 24.2-11 24.2-24.6 0-13.6-10.8-24.6-24.2-24.6-13.4 0-24.2 11-24.2 24.6 0 13.6 10.8 24.6 24.2 24.6zM251.651 498.663c11.6 0 21-9.5 21-21.3s-9.4-21.3-21-21.3-21 9.5-21 21.3 9.4 21.3 21 21.3zM190.83 548.725c11.5 0 20.8-9.4 20.8-21.1 0-11.7-9.3-21.1-20.8-21.1s-20.8 9.4-20.8 21.1 9.3 21.1 20.8 21.1zM176.83 490.049c9.9 0 18-8.2 18-18.2 0-10.1-8.1-18.2-18-18.2s-18 8.2-18 18.2c0 10.1 8.1 18.2 18 18.2zM176.319 438.571c8.5 0 15.4-7 15.4-15.7 0-8.6-6.9-15.7-15.4-15.7s-15.4 7-15.4 15.7 6.9 15.7 15.4 15.7zM184.801 395.758c7.3 0 13.1-6 13.1-13.3s-5.9-13.3-13.1-13.3c-7.3 0-13.1 6-13.1 13.3s5.8 13.3 13.1 13.3zM237.247 388.613c8.6 0 15.6-7.1 15.6-15.8 0-8.7-7-15.8-15.6-15.8s-15.6 7.1-15.6 15.8c0 8.7 7 15.8 15.6 15.8zM294.81 366.173c10 0 18.2-8.3 18.2-18.4 0-10.2-8.1-18.4-18.2-18.4-10 0-18.2 8.3-18.2 18.4 0 10.2 8.1 18.4 18.2 18.4zM308.513 424.561c11.4 0 20.7-9.4 20.7-21s-9.3-21-20.7-21-20.7 9.4-20.7 21 9.2 21 20.7 21zM237.967 440.102c10 0 18-8.2 18-18.3 0-10.1-8.1-18.3-18-18.3-10 0-18 8.2-18 18.3-.1 10.1 8 18.3 18 18.3zM39 412.978c21.5 0 39-17.7 39-39.5s-17.5-39.5-39-39.5-39 17.7-39 39.5 17.5 39.5 39 39.5zM127.525 342.422c18.5 0 33.4-15.2 33.4-33.9s-15-33.9-33.4-33.9c-18.5 0-33.4 15.2-33.4 33.9 0 18.8 15 33.9 33.4 33.9zM92.98 255.433c18.4 0 33.2-15.1 33.2-33.7s-14.9-33.7-33.2-33.7c-18.4 0-33.2 15.1-33.2 33.7-.1 18.6 14.8 33.7 33.2 33.7zM178.323 214.216c15.7 0 28.5-12.9 28.5-28.9s-12.8-28.9-28.5-28.9-28.5 12.9-28.5 28.9c0 16 12.8 28.9 28.5 28.9zM213.182 300.999c15.8 0 28.6-13 28.6-29s-12.8-29-28.6-29-28.6 13-28.6 29 12.8 29 28.6 29zM290.857 282.978c13.4 0 24.3-11 24.3-24.7 0-13.6-10.9-24.7-24.3-24.7s-24.3 11-24.3 24.7c-.1 13.6 10.8 24.7 24.3 24.7zM357.922 283.198c11.6 0 21-9.5 21-21.2s-9.4-21.2-21-21.2-21 9.5-21 21.2c.1 11.7 9.5 21.2 21 21.2zM413.357 295.968c9.7 0 17.7-8 17.7-17.9 0-9.9-7.9-17.9-17.7-17.9-9.7 0-17.7 8-17.7 17.9.1 9.8 8 17.9 17.7 17.9zM420.581 230.642c8.5 0 15.4-7 15.4-15.6s-6.9-15.6-15.4-15.6-15.4 7-15.4 15.6 6.9 15.6 15.4 15.6zM377.959 209.263c9.8 0 17.8-8.1 17.8-18.1s-8-18.1-17.8-18.1-17.8 8.1-17.8 18.1 7.9 18.1 17.8 18.1zM323.167 196.309c11.5 0 20.8-9.5 20.8-21.1 0-11.7-9.3-21.1-20.8-21.1s-20.8 9.5-20.8 21.1c0 11.7 9.3 21.1 20.8 21.1zM256.205 196.393c13.5 0 24.4-11.1 24.4-24.7s-10.9-24.7-24.4-24.7-24.4 11.1-24.4 24.7c.1 13.7 11 24.7 24.4 24.7zM166.01 134.624c15.3 0 27.6-12.5 27.6-28s-12.4-28-27.6-28c-15.3 0-27.6 12.5-27.6 28s12.4 28 27.6 28zM243.637 117.655c13.5 0 24.4-11.1 24.4-24.7s-10.9-24.7-24.4-24.7-24.4 11.1-24.4 24.7 10.9 24.7 24.4 24.7zM310.7 117.975c11.6 0 21-9.5 21-21.3s-9.4-21.3-21-21.3-21 9.5-21 21.3c0 11.7 9.4 21.3 21 21.3zM365.718 130.647c9.8 0 17.7-8 17.7-17.9 0-9.9-7.9-17.9-17.7-17.9-9.8 0-17.7 8-17.7 17.9 0 9.8 8 17.9 17.7 17.9zM407.999 152.602c8.7 0 15.8-7.2 15.8-16 0-8.9-7.1-16-15.8-16-8.7 0-15.8 7.2-15.8 16s7.1 16 15.8 16zM439.013 177.787c7.2 0 13-5.9 13-13.2 0-7.3-5.8-13.2-13-13.2s-13 5.9-13 13.2c-.1 7.3 5.8 13.2 13 13.2z" />
+								</svg>
+							</div>
+						</button>
+						<div class="action-header__social social">
+							<a class="social__link twitter" href=""><img src="img/icons/twitter.svg" alt="" /></a>
+							<a class="social__link discord" href=""><img src="img/icons/dc.svg" alt="" /></a>
+						</div>
+						<button type="button" class="icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__first-screen first-screen">
+				<div class="first-screen__container">
+					<div class="first-screen__content content">
+						<h1 class="content__title _anim-items _anim-no-hide _anim-no-hide">
+							The project that inspired the modern
+							<span>CryptoArt movement</span>
+						</h1>
+						<p class="content__text _anim-items _anim-no-hide">
+							10,000 unique collectible characters with proof of ownership
+							stored on the Ethereum blockchain.
+						</p>
+						<button type="button" class="content__btn _anim-items _anim-no-hide">
+							Mint <span>now</span>
+						</button>
+					</div>
+				</div>
+				<div class="first-screen__infinity-line">
+					<marquee behavior="alternate" direction="right" scrolldelay="60">
+						<div class="infinity-line__wrapper line-item _anim-items _anim-no-hide">
+							<picture><source srcset="img/main/nft-l-1.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-1.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-2.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-2.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-3.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-3.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-4.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-4.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-5.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-5.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-6.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-6.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-7.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-7.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-8.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-8.png" alt="" /></picture>
+							<picture><source srcset="img/main/nft-l-1.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-1.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-2.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-2.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-3.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-3.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-4.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-4.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-5.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-5.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-6.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-6.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-7.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-7.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-8.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-8.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-1.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-1.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-2.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-2.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-3.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-3.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-4.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-4.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-5.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-5.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-6.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-6.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-7.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-7.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-8.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-8.png" alt="" /></picture>
+							<picture><source srcset="img/main/nft-l-1.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-1.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-2.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-2.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-3.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-3.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-4.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-4.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-5.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-5.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-6.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-6.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-7.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-7.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-8.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-8.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-1.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-1.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-2.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-2.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-3.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-3.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-4.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-4.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-5.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-5.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-6.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-6.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-7.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-7.png" alt="" /></picture>
+
+							<picture><source srcset="img/main/nft-l-8.webp" type="image/webp"><img class="line-item__image" src="img/main/nft-l-8.png" alt="" /></picture>
+						</div>
+					</marquee>
+				</div>
+			</section>
+			<div class="page__cards cards">
+				<div class="cards__container">
+					<div class="cards__label _anim-items _anim-no-hide">Featured in</div>
+					<div class="quote-blocks__cards quote-block _anim-items _anim-no-hide">
+						<article class="quote-block__card">
+							<div class="quote-block__item item">
+								<div class="item__label">
+									<picture><source srcset="img/main/mashable.webp" type="image/webp"><img src="img/main/mashable.png" alt="" /></picture>
+								</div>
+								<p class="item__text">
+									This ethereum-based project could change how we think about
+									digital art
+								</p>
+							</div>
+							<div class="quote-block__link-row">
+								<a class="quote-block__link" href="#">Read article</a>
+							</div>
+						</article>
+						<article class="quote-block__card">
+							<div class="quote-block__item item">
+								<div class="item__label">
+									<picture><source srcset="img/main/mashable.webp" type="image/webp"><img src="img/main/mashable.png" alt="" /></picture>
+								</div>
+								<p class="item__text">
+									CryptoKitties, CryptoPunks and the birth of a cottage
+									industry
+								</p>
+							</div>
+							<div class="quote-block__link-row">
+								<a class="quote-block__link" href="#">Read article</a>
+							</div>
+						</article>
+						<article class="quote-block__card">
+							<div class="quote-block__item item">
+								<div class="item__label">
+									<picture><source srcset="img/main/mashable.webp" type="image/webp"><img src="img/main/mashable.png" alt="" /></picture>
+								</div>
+								<p class="item__text">
+									‘Obviously, we had no idea it was going to get here,’ say
+									the guys who made the first NFT
+								</p>
+							</div>
+							<div class="quote-block__link-row">
+								<a class="quote-block__link" href="#">Read article</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<section class="page__punks punks">
+				<div class="punks__container">
+					<div class="punks__columns column">
+						<div class="column__punk punk-info">
+							<div class="punk-info__body">
+								<h2 class="punk-info__title _anim-items _anim-no-hide">Meet the Punks</h2>
+								<div class="punk-info__inner inner _anim-items _anim-no-hide">
+									<p class="inner__content">
+										The CryptoPunks are 24x24 pixel art images, generated
+										algorithmically. Most are punky-looking guys and girls,
+										but there are a few rarer types mixed in: Apes, Zombies
+										and even the odd Alien. Every punk has their own profile
+										page that shows their attributes as well as their
+										ownership/for-sale status.
+									</p>
+									<div class="inner__links link">
+										<a class="link__buy" href="">Buy a Punk</a>
+										<a class="link__view" href="">View full collection</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column__punk big-punks">
+							<div data-tabs class="tabs">
+								<nav data-tabs-titles class="tabs__navigation _anim-items _anim-no-hide">
+									<button type="button" class="tabs__title tabs__title_1 _tab-active color-blue">
+										Punks with a blue background are not for sale and have no
+										current bids.
+									</button>
+									<button type="button" class="tabs__title tabs__title_2">
+										Punks with a red background are available for sale by
+										their owner.
+									</button>
+									<button type="button" class="tabs__title tabs__title_3">
+										Punks with a purple background have an active bid on them
+									</button>
+								</nav>
+								<div data-tabs-body class="tabs__content _anim-items _anim-no-hide">
+									<div class="tabs__body">
+										<picture><source srcset="img/main/big-content-NFT.webp" type="image/webp"><img class="tabs__image image--1" src="img/main/big-content-NFT.png" alt="" /></picture>
+									</div>
+									<div class="tabs__body">
+										<picture><source srcset="img/main/slider2-nft-3.webp" type="image/webp"><img class="tabs__image image--2" src="img/main/slider2-nft-3.png" alt="" /></picture>
+									</div>
+									<div class="tabs__body">
+										<picture><source srcset="img/main/slider2-nft-2.webp" type="image/webp"><img class="tabs__image image--3" src="img/main/slider2-nft-2.png" alt="" /></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__collection collection">
+				<div class="swiper__top-items item-top __container _anim-items _anim-no-hide">
+					<h3 class="item-top__title">Largest Sales</h3>
+					<a class="item-top__view view-all" href="">View all</a>
+				</div>
+				<div class="collection__slider swiper __out-of-container _anim-items _anim-no-hide">
+					<div class="collection__wrapper swiper-wrapper">
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-1.webp" type="image/webp"><img src="img/main/slider1-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#3100</a>
+								<div class="swiper-slide__price">4.2KΞ ($7.58M)</div>
+								<time class="swiper-slide__date">Mar 11, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-2.webp" type="image/webp"><img src="img/main/slider1-nft-2.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#7408</a>
+								<div class="swiper-slide__price">4.2KΞ ($7.57M)</div>
+								<time class="swiper-slide__date">Mar 11, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-3.webp" type="image/webp"><img src="img/main/slider1-nft-3.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4156</a>
+								<div class="swiper-slide__price">4.2KΞ ($10.26M)</div>
+								<time class="swiper-slide__date">Dec 09, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-4.webp" type="image/webp"><img src="img/main/slider1-nft-4.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#5217</a>
+								<div class="swiper-slide__price">2.25KΞ ($5.45M)</div>
+								<time class="swiper-slide__date">Jul 30, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-1.webp" type="image/webp"><img src="img/main/slider1-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#3100</a>
+								<div class="swiper-slide__price">4.2KΞ ($7.58M)</div>
+								<time class="swiper-slide__date">Mar 11, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-2.webp" type="image/webp"><img src="img/main/slider1-nft-2.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#7408</a>
+								<div class="swiper-slide__price">4.2KΞ ($7.57M)</div>
+								<time class="swiper-slide__date">Mar 11, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-3.webp" type="image/webp"><img src="img/main/slider1-nft-3.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4156</a>
+								<div class="swiper-slide__price">4.2KΞ ($10.26M)</div>
+								<time class="swiper-slide__date">Dec 09, 2021</time>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-4.webp" type="image/webp"><img src="img/main/slider1-nft-4.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#5217</a>
+								<div class="swiper-slide__price">2.25KΞ ($5.45M)</div>
+								<time class="swiper-slide__date">Jul 30, 2021</time>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-row container">
+						<button type="button" class="swiper-button-prev">
+							<img src="img/icons/arrow.svg" alt="" />
+						</button>
+						<button type="button" class="swiper-button-next">
+							<img src="img/icons/arrow.svg" alt="" />
+						</button>
+					</div>
+				</div>
+				<div class="swiper__top-items item-top __container _anim-items _anim-no-hide">
+					<div class="item-top__row">
+						<h3 class="item-top__title">Recent Transactions</h3>
+						<div class="item-top__subtext">Updated 25 seconds ago</div>
+					</div>
+					<a class="item-top__view view-all" href="">View all</a>
+				</div>
+				<div class="collection__slider swiper __out-of-container _anim-items _anim-no-hide">
+					<div class="collection__wrapper swiper-wrapper">
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-1.webp" type="image/webp"><img src="img/main/slider2-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#1254</a>
+								<div class="swiper-slide__price">
+									New bid of 51.20Ξ ($210,265)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-2.webp" type="image/webp"><img src="img/main/slider2-nft-2.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#9844</a>
+								<div class="swiper-slide__price">
+									New bid of 111Ξ ($455,848)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-3.webp" type="image/webp"><img src="img/main/slider2-nft-3.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4156</a>
+								<div class="swiper-slide__price">
+									Offered for 63.95Ξ ($262,626)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-1.webp" type="image/webp"><img src="img/main/slider1-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4567</a>
+								<div class="swiper-slide__price">
+									Offered for 69.95Ξ ($262,626))
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-1.webp" type="image/webp"><img src="img/main/slider2-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#1254</a>
+								<div class="swiper-slide__price">
+									New bid of 51.20Ξ ($210,265)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-2.webp" type="image/webp"><img src="img/main/slider2-nft-2.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#9844</a>
+								<div class="swiper-slide__price">
+									New bid of 111Ξ ($455,848)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider2-nft-3.webp" type="image/webp"><img src="img/main/slider2-nft-3.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4156</a>
+								<div class="swiper-slide__price">
+									Offered for 63.95Ξ ($262,626)
+								</div>
+							</div>
+						</div>
+						<div class="collection__slide swiper-slide">
+							<a class="swiper-slide__image-ibg" href="">
+								<picture><source srcset="img/main/slider1-nft-1.webp" type="image/webp"><img src="img/main/slider1-nft-1.png" alt="" /></picture>
+							</a>
+							<div class="swiper-slide__content-row">
+								<a class="swiper-slide__heshtag" href="">#4567</a>
+								<div class="swiper-slide__price">
+									Offered for 69.95Ξ ($262,626))
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-row container">
+						<button type="button" class="swiper-button-prev">
+							<img src="img/icons/arrow.svg" alt="" />
+						</button>
+						<button type="button" class="swiper-button-next">
+							<img src="img/icons/arrow.svg" alt="" />
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__instruction instruction">
+				<div class="instruction__container">
+					<div class="instruction__body instruction-item">
+						<h4 class="instruction-item__title _anim-items _anim-no-hide">
+							How do i get a punk?
+						</h4>
+						<div class="instruction-item__column column-step _anim-items _anim-no-hide">
+							<div class="column-step__1 step-item">
+								<div class="step-item__icon">
+									<picture><source srcset="img/main/metamask.webp" type="image/webp"><img src="img/main/metamask.png" alt="" /></picture>
+								</div>
+								<div class="step-item__title">
+									Download and install MetaMask
+								</div>
+								<div class="step-item__text">
+									Download and install a Chrome browser plugin called
+									MetaMask. This will allow websites (that you authorise)
+									access to your Ethereum account.
+								</div>
+								<a href="" class="step-item__btn">Dowload MetaMask</a>
+							</div>
+							<div class="column-step__2 step-item">
+								<div class="step-item__icon">
+									<picture><source srcset="img/main/crypto-ef.webp" type="image/webp"><img src="img/main/crypto-ef.png" alt="" /></picture>
+								</div>
+								<div class="step-item__title">Buy some Ethereum</div>
+								<div class="step-item__text">
+									If you made a new account, buy some Ethereum. The MetaMask
+									plugin has a button that will allow you to buy Ether from
+									Coinbase.
+								</div>
+							</div>
+
+							<div class="column-step__3 step-item">
+								<div class="step-item__title">
+									Start bidding, buying and selling
+								</div>
+								<div class="step-item__text">
+									Once you have the plugin installed, this website will
+									recognise it and add buttons that allow you to bid on, buy
+									and sell punks directly in the interface.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__FAQ FAQ">
+				<div class="FAQ__container">
+					<div class="FAQ__title _anim-items _anim-no-hide">Details and FAQ</div>
+					<div class="FAQ__body">
+						<div class="FAQ__column column-object">
+							<div class="column-object__qustion _anim-items _anim-no-hide">
+								Where are the images for the punks stored?
+							</div>
+							<div class="column-object__content _anim-items _anim-no-hide">
+								When originally released, the actual images of the punks were
+								too large to store on the blockchain, so we took a hash of the
+								<span class="content-bold">composite image</span> of all the
+								punks and
+								<span class="content-bold">embeded it into the contract</span>. You can verify that the punks being managed by the Ethereum
+								contract are the True Official Genuine CryptoPunks™ by
+								calculating an SHA256 hash on the cryptopunks image and
+								comparing it to the hash stored in the contract.Since then,
+								due to some clever compression ideas and some help from
+								friends of the punks we have managed to put the entire image
+								and attribute data fully on chain. You can read more about the
+								mechanisms and details of the process in the
+								<a class="content-link" href="">announcement blog post.</a>
+							</div>
+						</div>
+						<div class="FAQ__column column-object">
+							<div class="column-object__qustion _anim-items _anim-no-hide">
+								Are the punks an ERC-721 token?
+							</div>
+							<div class="column-object__content _anim-items _anim-no-hide">
+								No. The CryptoPunks pre-date the ERC-721 standard and are a
+								custom contract, that means it doesn't comply with any
+								standards. They are almost an
+								<a class="content-link" href="">ERC20 token</a>. We support
+								the methods that provide your balance so you can watch
+								CryptoPunks as a token in your wallet and see how many you
+								own. None of the other methods are the same since you're not
+								transferring a simple balance, but need to reference which
+								specific Punk you want to work with.
+							</div>
+						</div>
+						<div class="FAQ__column column-object">
+							<div class="column-object__qustion _anim-items _anim-no-hide">
+								Where does the market data on this site come from?
+							</div>
+							<div class="column-object__content _anim-items _anim-no-hide">
+								The prices, bids and sales you see on this site are loaded
+								from the Cryptopunks contract on the Ethereum blockchain.
+								Because the Cryptopunks pre-date the ERC-721 standard (and all
+								third party NFT marketplaces) we also needed to write a market
+								so the punks could be transacted. We have no control over the
+								contract governing this market, and have no access to any
+								additional data beyond what the blockchain provides. In fact
+								anyone else could write a web front end for it.
+							</div>
+						</div>
+						<div class="FAQ__column column-object">
+							<div class="column-object__qustion _anim-items _anim-no-hide">
+								Do you charge any fees for transactions?
+							</div>
+							<div class="column-object__content _anim-items _anim-no-hide">
+								No. We charge no fees for Cryptopunks transacted through the
+								built-in market beyond the ones charged by Ethereum (gas).The
+								contract source and more technical details are available
+								<a class="content-link" href="">on Github</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer ">
+			<div class="footer__container">
+				<div class="footer__top top _anim-items _anim-no-hide">
+					<a class="top__logo-link" href="">CryptoPunks</a>
+					<div class="top__link-box">
+						<a class="top__link" href="">Buy a Punk</a>
+						<a class="top__link" href="">View Full Collection</a>
+					</div>
+					<div class="social">
+						<a class="social__link twitter" href=""><img src="img/icons/twitter.svg" alt="" /></a>
+						<a class="social__link discord" href=""><img src="img/icons/dc.svg" alt="" /></a>
+					</div>
+				</div>
+				<div class="footer__bottom bottom ">
+					<div class="bottom__item-copy ">© 2021 CryptoPunks. All right reserved.</div>
+					<div class="bottom__link-box">
+						<a href="" class="bottom__link">Privacy Policy</a>
+						<a href="" class="bottom__link">Terms of Service</a>
+						<a href="" class="bottom__link">Cookies Settings</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230920014839"></script>
+</body>
+
+</html>
